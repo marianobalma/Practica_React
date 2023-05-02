@@ -1,4 +1,4 @@
-import { Home } from "./components/pages/home/Home";
+//import { Home } from "./components/pages/home/Home";
 
 // otra forma de importar
 //import Home from "./components/pages/home/Home";
@@ -13,12 +13,12 @@ import { Home } from "./components/pages/home/Home";
   return num1 + num2
 };
 
-let resultado = suma()*/ //15
+let resultado = suma() 15*/ 
 
 function App() {
   return (
     <div className="App">
-      <Home /> 
+
     </div>
   );
 }
