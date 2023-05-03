@@ -1,26 +1,27 @@
-//import { Home } from "./components/pages/home/Home";
+import {BrowserRouter, Routes, Route} from "react-router-dom"
+import Home from "./components/pages/home/Home";
+import Formulario from "./components/pages/formulario/Formulario";
+import Login from "./components/pages/login/Login";
 
-// otra forma de importar
-//import Home from "./components/pages/home/Home";
-
-//formas de ejecutar una function en js--- Home()
-// otra forma--- <Home />
-
-/*let suma = ()=>{
-  let num1 = 5
-  let num2 = 10
-
-  return num1 + num2
-};
-
-let resultado = suma() 15*/ 
+// BrowserRouter arma la estructura de enrutamiento; Routes envolver rutas individuales; Route crea rutas
 
 function App() {
   return (
     <div className="App">
+      <BrowserRouter>
 
+      <Routes>
+
+        <Route path="/" element= {<Login/>}/>
+        <Route path="/home" element={<Home/>}/>
+        <Route path="/formulario" element={<Formulario/>}/>
+
+      </Routes>
+
+      </BrowserRouter>
     </div>
   );
 }
 
+// path significa como se llama la ruta; element sirve para renderizar
 export default App;
