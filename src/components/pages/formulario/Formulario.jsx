@@ -41,7 +41,7 @@ const Formulario = () => {
         <Grid
           container
           align-items={"center"}
-          justify-content="space-evenly"
+          justifyContent="space-evenly"
           spacing={2}
           sx={{ width: "100%" }}
         >
