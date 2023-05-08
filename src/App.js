@@ -13,7 +13,8 @@ import { Home } from "./components/pages/home/Home";
   return num1 + num2
 };
 
-let resultado = suma()*/ //15
+let resultado = suma() //15
+console.log(resultado)*/
 
 function App() {
   return (
