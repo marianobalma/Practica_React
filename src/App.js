@@ -18,7 +18,6 @@ let resultado = suma()*/ //15
 function App() {
   return (
     <div className="App">
-      <Home /> 
     </div>
   );
 }
